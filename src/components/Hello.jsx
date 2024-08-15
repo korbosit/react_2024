@@ -1,10 +1,10 @@
-function Hello({ name, message, emoji }) {
-    // console.log(props);
-    // const { name, message } = props;
+function Hello(props) {
+    // props.name = "Irina"; will be a mistake
     return (
         <div>
             <h1>
-                Hello {name} from a Hello component! {message} {emoji}
+                Hello {props.name} from a Hello component! {props.message}{" "}
+                {props.emoji}
             </h1>
         </div>
     );
