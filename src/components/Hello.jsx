@@ -1,10 +1,9 @@
-function Hello(props) {
-    // props.name = "Irina"; will be a mistake
+function Hello({ person }) {
     return (
         <div>
             <h1>
-                Hello {props.name} from a Hello component! {props.message}{" "}
-                {props.emoji}
+                {person.message} {person.name} {person.emoji}{" "}
+                {person.seatNumbers}
             </h1>
         </div>
     );
