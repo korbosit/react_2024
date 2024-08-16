@@ -1,5 +1,6 @@
 import Fruits from "./components/Fruits";
 import Hello from "./components/Hello";
+import ConditionalComponent from "./components/ConditionalComponent";
 
 function App() {
     // const seatNumbers = [1, 2, 7];
@@ -11,8 +12,9 @@ function App() {
     };
     return (
         <div className="App">
-            <Hello person={person} />
+            {/* <Hello person={person} /> */}
             <Fruits />
+            <ConditionalComponent />
         </div>
     );
 }
