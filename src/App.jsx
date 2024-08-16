@@ -14,7 +14,7 @@ function App() {
         <div className="App">
             {/* <Hello person={person} /> */}
             <Fruits />
-            <ConditionalComponent />
+            {/* <ConditionalComponent /> */}
         </div>
     );
 }
